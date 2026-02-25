@@ -11,7 +11,7 @@ This project implements a hybrid cloud infrastructure bridging a remote Azure VP
 ## Architecture Diagram
 The infrastructure follows a Hub-and-Spoke topology centered on the Azure VPS.
 
-![Infrastructure Architecture](docs/cloud-infrastructure-diagram.png)
+![Infrastructure Architecture](docs/cloud-infrastructure-diagram.jpg)
 
 * **Node 0 (Azure VPS):** Central VPN Hub and Certificate Authority (CA).
 * **Node 1 (Proxmox Hypervisor):** Remote hypervisor node hosting metrics collection services.
@@ -38,3 +38,4 @@ The repository is structured by Node for deployment clarity:
 * `scripts/`: Monitoring and storage initialization scripts.
 
 * `docs/`: Technical diagrams and architectural documentation.
+
