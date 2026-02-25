@@ -35,7 +35,9 @@ The infrastructure follows a Hub-and-Spoke topology centered on the Azure VPS.
 ## Repository Organization
 The repository is structured by Node for deployment clarity:
 * `configs/`: Node-specific configuration files and PKI documentation.
-* `scripts/`: Monitoring and storage initialization scripts.
+* `automation/scripts/networking`: Networking scripts
+* * `automation/scripts/metrics`: Metrics scripts
 
 * `docs/`: Technical diagrams and architectural documentation.
+
 
